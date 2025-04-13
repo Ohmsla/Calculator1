@@ -24,6 +24,35 @@ body{
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
 
 }
+.oh {
+  width: fit-content;
+  padding: 0 20px;
+  position: absolute;
+  font-size: 3rem;
+  color: transparent;
+  background: linear-gradient(45deg, blue, red, orange, 
+  pink, gray, black);
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradientMove 15s ease infinite;
+  top: 2rem;
+  text-align: center;
+  font-weight: 1000;
+  font-family: cursive;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .calculator input{
     background: transparent;
     width: 320px;
