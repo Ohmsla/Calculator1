@@ -1,0 +1,2 @@
+npm install <module-name> --save         # for runtime dependencies
+npm install <module-name> --save-dev     # for development-only dependencies
