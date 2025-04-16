@@ -25,3 +25,4 @@ arr.forEach((button) => {
     }
   });
 });
+ document.getElementById("year").textContent = new Date().getFullYear();
